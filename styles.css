@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: #393E46;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #EEEEEE;
+    font-size: 16px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #015d85;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #5fc4ef;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+}
+li {
+    background: #EEEEEE;
+    padding: 12px;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    transition: 0.3s;
+}
+li span {
+    font-size: 12px;
+    color: rgb(161, 161, 161);
+    margin-top: 5px;
+}
+li:hover {
+    background-color: #d6d6d6;
+}
+.button-container {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+li button {
+    background-color: rgb(235, 226, 226);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+li button:hover {
+    background-color: rgb(144, 245, 201);
+}
